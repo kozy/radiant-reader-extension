@@ -1,0 +1,198 @@
+--- 
+nl:
+  access_denied: Toegang geweigerd
+  account_settings: Account instellingen
+  account_updated: "Uw account is geüpdate"
+  activate_account: Activeer uw account
+  activation_complete: Hartelijk dank voor het voltooien van de registratie. Uw account is nu actief.
+  activation_failed: Het is niet gelukt het activatie bericht te versturen!
+  activation_message_sent: Activatie instructies voor uw account zijn u toegemailed.
+  activation_required_explanation: U zou een bevestings email gehad moeten hebben met een link welke uw account activeerd.
+  activation_required_header: Graag uw email controleren
+  activation_sent: Activatie bericht verstuurd
+  activation_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand begind met registreren.
+  administrative_email: Administratieve email
+  already_active: Uw account is al actief.
+  already_in_use: is al in gebruik
+  already_logged_in: U bent al ingelogd!
+  already_registered: Indien u al heeft geregistreerd ga dan naar
+  and_try_again: en opniew proberen.
+  avatar_by: Avatar door Gravatar.com
+  bold_required: "Velden met vette koppen zijn verplicht:"
+  but_not_active: maar uw account is nog niet geactiveerd. Gelieve uw email te controleren voor een activatie bericht.
+  cancel: annuleren
+  cannot_delete_readers: Graag inloggen als administrator om accounts te verwijderen.
+  cannot_edit_others: U kunt niet de account van anderen aanpassen.
+  change_gravatar: verander uw gravatar afbeelding
+  change_password: Mijn wachtwoord aanpassen
+  check_email_for_activation_message: please check your email for an activation message
+  config:
+    email:
+      address: Bericht antwoord aan (reply-to)
+      name: Bericht zender
+      layout: Email layout
+      prefix: Onderwerp 'prefix'
+    reader:
+      allow_registration?: Registratie toegestaan
+      layout: Layout voor formulieren
+      require_confirmation?: Bevestig email adressen
+      use_honorifics?: Gebruik 'honorifics'
+  confirm_deletion:   Weet u zeker dat u de volgende bezoeker %{permanently_remove} wilt verwijderen?
+  confirm_new_password: "Bevestig nieuw wachtwoord"
+  confirm_password: Bevestig wachtwoord
+  confirmation_code: Bevestigings code
+  confirming_email: Als u klikt op 'registreer' sturen wij een bevestigings email naar bovenstaand adres. Klik op de link in dat bericht, en u bent binnen.
+  continue: Doorgaan
+  count_people: 
+    zero: "(niemand)"
+    one: "(een persoon)"
+    other: "(%{count} mensen)"
+  create_message: maak bericht
+  current_password: Huidig wachtwoord
+  delete_message: verwijder bericht
+  delete_reader: Bezoeker verwijderem
+  description_notes: u mag dit ook later invullen. 'Textile' opmaak is toegestaan.
+  dont_fill: Dit niet invullen!
+  edit_message: bericht aanpassen
+  edit_profile: uw profiel aanpassen
+  edit_reader: Bezoeker aanpassen
+  email: email
+  email_notes: we sturen een activatie bericht naar dit adres
+  email_unknown: het spijt me. Dat email adres is niet bekend hier
+  enter_code: Gelieve de bevestigings code invullen
+  enter_email_for_reminder: vul uw email adres in en we sturen het bericht opnieuw
+  enter_own_password: "Allereerst, om te controleren dat u het bent, graag uw wachtwoord invulllen:"
+  everyone: Iedereen
+  everyone_inactive: iedereen die zijn account niet heeft geactiveerd
+  everyone_unsent: "iedereen die dit bericht neit heeft gekregen"
+  existing_password_notes: leeg laten om uw huidige wachtwoord te houden. Als uw het veranderd, graag minmaal vier karakters.
+  filter: "Filter:"
+  for: voor
+  forgotten_password: wachtwoord vergeten?
+  form_problem: er was een probleem met het formulier
+  getting_gravatar: Als u een afbeelding naast uw berichten wilt geef uzelf dan een
+  hello: Hallo
+  home: home
+  honorific: Titel of rang
+  honorific_notes: ""
+  if_cant_find: Als u het bericht niet kunt vinden, kunnen we
+  if_mistake_see_admin: Als dit een fout is dan vraag ik contact op te nemen met de administrator van de website.
+  invalid_email: lijkt niet op een email adres
+  invitation_description: Dit zal een uitnodiging en actievatieverzoek sturen.Naar het 
+  invitation_description: This will cause an invitation (and activation) message to be sent to the email address that you specify.
+  invitation_message: Uitnodigings bericht
+  invitation_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand wordt uitgenodigd op de site.
+  invite_a_reader: Bezoeker uitnodigen
+  invite_description: <a href="%{url}">Edit your preferences to put some text about yourself here.
+  is_free_and_quick: " is gratis en is zo gepiept"
+  is_required: moet worden opgegeven
+  last_sent: Laatst verstuurd
+  layout_for_readers: Layout for readers
+  layout_note: currently you have to be logged into the site to see its layouts here. will fix.
+  log_in: inloggen
+  log_in: log in
+  log_out: uitloggen
+  log_out: log out
+  login_name: Login naam
+  login_notes: Leeg laten om uw email adres te gebruiken
+  login_unknown: 'Het spijt me: we herkennen deze combinatie gebruikersnaam en wachtwoord niet.'
+  logout_message: U bent uitgelogd. Tot ziens!
+  message_body: Bericht inhoud
+  message_explaination: |-
+    "You can use tags, snippets and assets in your messages just as you would in a page. 
+    There are also a few simple mailmerge tags that you can use to place information about the recipient (or yourself) in each message as it is sent out.
+    Most are self-explanatory:"
+  message_subject: Bericht onderwerp
+  modify: aanpassen
+  must_be_empty: moet leeg zijn
+  name_login: Naam / Gebruikersnaam
+  name_notes: zoals u wilt dat het op de site komt
+  never_sent: nooit verstuurd
+  new_account: Registreer
+  new_password: Nieuw wachtwoord
+  new_password_instructions: Vul in en bevestig uw nieuwe wachtwoord. Het moet minimaal vier karakters lang zijn, niets voor de hand liggends en bij voorkeur een combinatie van nummers en letters.
+  'no': nee
+  new_reader: Nieuwe bezoekers
+  no_description: Geen beschrijving beschikbaar
+  not_correct: probleem!
+  note: "Opmerking:"
+  notes: Opmerkingen
+  page_permission_denied: U heeft niet voldoende de rechten om deze pagina te zien.
+  password: wachtwoord
+  password_incorrect: Het spijt me, u heeft geen juist wachtwoord ingevoerd.
+  password_mismatch: Wachtwoorden komen niet overeen! Probeer opnieuw.
+  password_not_yet_changed: U wachtwoord is nog niet veranderd, dus als u het zich weer herinnerd kunt u inloggen zoals gerbuikelijk.
+  password_notes: minimaal vier karakters alstublieft
+  password_reset_instructions: Vul hieronder uw email adres in. Als we het herkennen sturen we u een bericht met een confirmatie link (of, als uw account nog niet actief is, sturen we de confirmatie email opnieuw).
+  password_reset_reassurance: Uw wachtwoord zal niet veranderen tot u dat formulier invuld zodat alleen u dit proces kunt voltooien.
+  password_reset_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand zijn wachtwoord hersteld.
+  password_updated_notice: Hartelijk dank. Uw wachtwoord is aangepast en u bent nu inglogd.
+  people: mensen
+  permanently_remove: permanent
+  permission_denied: Toegang geweigerd
+  please: Graag
+  please_avoid_spam_trap: Vul alstublieft niet het spam val veld in
+  please_check_message: "Het spijt me: er is iets mis met die link. Controleer opnieuw uw email en controleer of u de volledige link gebruikt."
+  please_log_in: Graag inloggen
+  please_log_out: Graag uitloggen
+  please_read_our: Graag onze
+  please_register: Neem een moment om hier een account aan te maken
+  please_use_form: Gebruik alstublieft het registratie formulier
+  preferences_intro: U kunt dit formulier gebruiken om uw voorkeuren aan te passen en wat informatie over uzelf kwijt te kunnen.
+  preview_and_send_message: Bericht voorvertonen en versturen
+  reader: Bezoeker
+  reader_admin: Bezoekers administratie
+  reader_configuration: Bezoekers configuratie
+  reader_configuration_page: Bezoeker instellingen
+  reader_emails: Administratieve berichten
+  reader_logged_in_as: U bent ingelogd als %{name},
+  reader_required: "Het spijt me, voor dit gedeelte van de site heeft u een account nodig."
+  readers: Bezoekers
+  really_delete_message: "Weet u zeker dat u het %{title} bericht wilt verwijderen? Dit kan niet ongedaan gemaakt worden."
+  really_delete_reader: "Weet u zeker dat u bezoeker %{name} wilt verwijderen? Dit kan niet ongedaan gemaakt worden."
+  recipient_activation_url_tag_description: is het adres dat de nieuwe account zal activeren
+  recipient_edit_url_tag_description: is het adres van het voorkeuren formulier
+  recipient_password_tag_description: "werkt enkel in welkomstberichten: na de eerste login vergeten we het onversleutelde wachtwoord"
+  recipient_url_tag_description: is het adres van persoonlijke pagina van deze bezoeker
+  register: registreer
+  registration: registratie
+  registration_disallowed: Het spijt me. Wij staan het niet toe om te registreren
+  remember_me: herinner mij
+  remove_reader: Bezoeker verwijderen
+  resend_activation: stuur activatie bericht opnieuw
+  reset_message_instructions: Bedankt. Er is een bericht verstuurd met instructie om uw wachtwoord te herstelllen. Het is nog niet aangepast totdat u de instructies in de email volgt. Als u plotseling uw oude wachtwoord herinnerd kunt u gewoon doorgaan zoals u gewend bent en dat bericht negeren
+  reset_message_sent: Wachtwoord herstel instructies zijn u toegemailed.
+  reset_not_found: Wachtwoord herstel code niet gevonden
+  reset_password: Herstel uw wachtwoord
+  restart_password_change: Stuur nogmaals wachtwoord herstel instructies
+  return_to_page: "keer terug naar de pagina die u bekeek voordat u het regsitratie proces starte"
+  return_to_page: return to the page you were looking at before you started registering
+  save_changes: Wijzigingen opslaan
+  saving_changes: Wijzigingen aan het opslaan&#8230;
+  self_description: Zelf-omschrijving
+  send_it_again: stuur het opnieuw
+  send_message: Verstuur bericht
+  send_reset_button: stuur mij instructies
+  send_to: Verstuur aan
+  sender_email_tag_description: het adres in de reader.mail_from_address configuratie momenteel
+  sorry: Helaas,
+  sorry_access_denied: Het spijt me, toegang geweigerd
+  sorry_reset_not_found: "Het spijt me, het systeem kan u niet vinden. Er zal iets misgegeaan zijn met de link. Plak de 20-karaktes lange code in onderstaand veld en we proberen het opnieuw."
+  spam_trap: is een spam val en zou niet zichtbaar moeten zijn
+  terms_and_conditions: algemene voorwaarden
+  thanks_activated: Harteljk dank! Uw account is geactiveerd.
+  thanks_and_activation_instructions: Bedankt voor het registreren. Contoleer nu alstublieft uw email. In het bericht wat ik u verstuurd heb vind u een link welke uw account activeerd en u weer inlogd.
+  this_is_your_page: Dit is de pagina die andere (ingelogde) bezoekers zien als ze op uw naam klikken.
+  this_message_functional: Dit is het %{function} bericht.
+  to_take_part_please: Om deel te nemen, graag
+  update_account: Uw account aanpassen
+  update_your_account: Uw account aanpassen
+  username: gebruikersnaam
+  welcome_back: Welkom terug
+  welcome_message: Welkomst bericht
+  welcome_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand registreerd en activeerd.
+  wrong_email: we denken dat u een verkeerd email adres heeft gebruikt,
+  'yes': ja
+  your_description: Een korte zelfomschrijving
+  your_email: Uw email adres
+  your_name: Uw naam
