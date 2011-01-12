@@ -1,5 +1,5 @@
 --- 
-en: 
+en:
   access_denied: Access denied
   account_settings: Account settings
   account_updated: Your account has been updated
@@ -10,6 +10,7 @@ en:
   activation_required_header: Please check your email
   activation_sent: Activation message sent
   activation_sent_automatically: This message is sent automatically when someone begins to register.
+  administrative_email: Administrative email
   already_active: Your account is already active.
   already_logged_in: You're already logged in!
   already_registered: If you've already registered, you should only need to
@@ -52,6 +53,7 @@ en:
   dont_fill: Don't fill this in!
   edit_message: edit message
   edit_profile: edit your profile
+  edit_reader: Edit Reader
   email: email
   email_notes: we will send an activation message to this address
   email_unknown: Sorry. That email address is not known here.
@@ -128,6 +130,7 @@ en:
   preview_and_send_message: Preview and send message
   reader: Reader
   reader_admin: Reader administration
+  reader_configuration: Reader configuration
   reader_configuration_page: reader settings
   reader_emails: Administrative messages
   reader_logged_in_as: You are logged in as %{name}.
@@ -151,6 +154,8 @@ en:
   reset_password: Reset your password
   restart_password_change: Send another password-reset message
   return_to_page: return to the page you were looking at before you started registering
+  save_changes: Save Changes
+  saving_changes: Saving changes&#8230;
   self_description: Self-description
   send_it_again: send it again
   send_message: Send Message
@@ -170,11 +175,6 @@ en:
   to_take_part_please: To take part, please
   update_your_account: Update your account
   username: username
-  administrative_email: Administrative email
-  reader_configuration: Reader configuration
-  save_changes: Save Changes
-  saving_changes: Saving changes&#8230;
-  create_message: create message
   welcome_back: Welcome back
   welcome_message: Welcome message
   welcome_sent_automatically: This message is sent automatically when someone completes the registration and email-confirmation process.
