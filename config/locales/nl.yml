@@ -13,6 +13,7 @@ nl:
   activation_sent: Activatie bericht verstuurd
   activation_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand begind met registreren.
   administrative_email: Administratieve email berichten
+  all_deliveries_failed: Kon geen berichten versturen
   already_active: Uw account is al actief.
   already_in_use: is al in gebruik
   already_logged_in: U bent al ingelogd!
@@ -48,10 +49,12 @@ nl:
     zero: "(niemand)"
     one: "(een persoon)"
     other: "(%{count} mensen)"
+  create: Maak een
   create_message: maak bericht
   current_password: Huidig wachtwoord
   delete_message: verwijder bericht
   delete_reader: Bezoeker verwijderem
+  delivery_status: Aflevering status
   description_notes: u mag dit ook later invullen. 'Textile' opmaak is toegestaan.
   dont_fill: Dit niet invullen!
   edit_message: bericht aanpassen
@@ -76,13 +79,12 @@ nl:
   home: home
   honorific: Titel of rang
   honorific_notes: ""
-  if_cant_find: Als u het bericht niet kunt vinden, kunnen we
+  if_cant_find: Als u het bericht niet kunt vinden, kunnen we het opnieuw versturen.
   if_mistake_see_admin: Als dit een fout is dan vraag ik contact op te nemen met de administrator van de website.
   invalid_email: lijkt niet op een email adres
   invitation: Uitnodiging
-  invitation_description: Dit zal een uitnodiging en actievatieverzoek sturen.Naar het 
-  invitation_description: This will cause an invitation (and activation) message to be sent to the email address that you specify.
-  invitation_message: Uitnodigings bericht
+  invitation_description: Dit zal een uitnodiging en activatieverzoek sturen naar het adres wat u aangeeft.
+  invitation_message: uitnodigings bericht
   invitation_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand wordt uitgenodigd op de site.
   invite_a_reader: Bezoeker uitnodigen
   invite_description: <a href="%{url}">Edit your preferences to put some text about yourself here.
@@ -100,17 +102,21 @@ nl:
   login_unknown: 'Het spijt me: we herkennen deze combinatie gebruikersnaam en wachtwoord niet.'
   logout_message: U bent uitgelogd. Tot ziens!
   message_body: Bericht inhoud
+  message_delivered: Alle berichten verstuurd
   message_explaination: |-
-    "You can use tags, snippets and assets in your messages just as you would in a page. 
-    There are also a few simple mailmerge tags that you can use to place information about the recipient (or yourself) in each message as it is sent out.
-    Most are self-explanatory:"
+    U kunt tags, knipsels en assets in uw berichten gebruiken, net als op een normale pagina. 
+    Ook zijn er een paar eenvoudige mail tags welke u kan gebruiken om informatie over de ontvanger of uzelf te plaatsen zodra het bericht verstuurd wordt.
+    De meeste beschrijven zichzelf:
   message_subject: Bericht onderwerp
+  edit: Aanpassen
+  modify: Aanpassen
   modify: aanpassen
   must_be_empty: moet leeg zijn
   name_login: Naam / Gebruikersnaam
   name_notes: zoals u wilt dat het op de site komt
   never_sent: nooit verstuurd
   new_account: Registreer
+  new_message: nieuw bericht
   new_password: Nieuw wachtwoord
   new_password_instructions: Vul in en bevestig uw nieuwe wachtwoord. Het moet minimaal vier karakters lang zijn, niets voor de hand liggends en bij voorkeur een combinatie van nummers en letters.
   'no': nee
@@ -178,10 +184,13 @@ nl:
   send_reset_button: stuur mij instructies
   send_to: Verstuur aan
   sender_email_tag_description: het adres in de reader.mail_from_address configuratie momenteel
+  sender_name_tag_description: is de naam geconfigureerd in mail_from_name momenteel
+  some_deliveries_failed: Kon sommige berichten niet versturen
   sorry: Helaas,
   sorry_access_denied: Het spijt me, toegang geweigerd
   sorry_reset_not_found: "Het spijt me, het systeem kan u niet vinden. Er zal iets misgegeaan zijn met de link. Plak de 20-karaktes lange code in onderstaand veld en we proberen het opnieuw."
   spam_trap: is een spam val en zou niet zichtbaar moeten zijn
+  subject: Onderwerp
   terms_and_conditions: algemene voorwaarden
   thanks_activated: Harteljk dank! Uw account is geactiveerd.
   thanks_and_activation_instructions: Bedankt voor het registreren. Contoleer nu alstublieft uw email. In het bericht wat ik u verstuurd heb vind u een link welke uw account activeerd en u weer inlogd.

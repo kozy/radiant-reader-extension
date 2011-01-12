@@ -1,17 +1,19 @@
----
-en:
+--- 
+en: 
   access_denied: Access denied
   account_settings: Account settings
   account_updated: Your account has been updated
   activate_account: Activate your account
   activation_complete: Thank you very much for persevering with the registration process. Your account is now active.
   activation_instructions: Activation instructions
+  activation_message: activatie bericht
   activation_message_sent: Account activation instructions have been emailed to you.
   activation_required_explanation: You should have received a confirmation message containing a link that will activate your account.
   activation_required_header: Please check your email
   activation_sent: Activation message sent
   activation_sent_automatically: This message is sent automatically when someone begins to register.
   administrative_email: Administrative email
+  all_deliveries_failed: Could not send any message
   already_active: Your account is already active.
   already_logged_in: You're already logged in!
   already_registered: If you've already registered, you should only need to
@@ -46,10 +48,12 @@ en:
     one: (one person)
     other: (%{count} people)
     zero: (nobody)
+  create: Create
   create_message: create message
   current_password: Current password
   delete_message: delete message
   delete_reader: Delete Reader
+  delivery_status: Delivery status
   description_notes: you can fill this in later. Textile formatting is allowed.
   dont_fill: Don't fill this in!
   edit_message: edit message
@@ -91,15 +95,22 @@ en:
   login_notes: leave blank to use your email address
   login_unknown: "Sorry: we don't recognise that combination of username and password."
   logout_message: You are logged out. Bye!
+  message: message
   message_body: Message Body
-  message_explaination: "  You can use tags, snippets and assets in your messages just as you would in a page. \n  There are also a few simple mailmerge tags that you can use to place information about the recipient (or yourself) in each message as it is sent out. \n  Most are self-explanatory:"
+  message_delivered: Messages delivered
+  message_explaination: |-
+    You can use tags, snippets and assets in your messages just as you would in a page.
+    There are also a few simple mailmerge tags that you can use to place information about the recipient (or yourself) in each message as it is sent out.
+    Most are self-explanatory:
   message_subject: Message Subject
+  edit: Edit
   modify: Modify
   must_be_empty: must be empty
   name_login: Name / Login
   name_notes: as you would like it to appear on the site
   never_sent: never sent
   new_account: Register
+  new_message: new message
   new_password: New password
   new_password_instructions: Please enter and confirm the new password you would like to use. It must be at least four characters long, nothing obvious or typical and ideally a mixture of numbers and letters.
   new_reader: new reader
@@ -115,6 +126,7 @@ en:
   password_not_yet_changed: Your password hasn't changed yet, so if you've just remembered it you can still log in as usual.
   password_notes: at least four characters, please
   password_reset_instructions: Please enter your email address below. If we recognise it, we'll send you a message with a confirmation link (or if your account is not yet active, we'll send the activation message again).
+  password_reset_message: Password reset message
   password_reset_reassurance: Your password will not change until you fill in that form, so only you can complete this process.
   password_reset_sent_automatically: This message is sent automatically when someone asks to reset their password.
   password_updated_notice: Thank you. Your password has been updated and you are now logged in.
@@ -166,10 +178,12 @@ en:
   send_to: Send to
   sender_email_tag_description: "is the address configured in  reader.mail_from_address: currently "
   sender_name_tag_description: "is the name configured in reader.mail_from_name: currently "
+  some_deliveries_failed: Could not send some messages
   sorry: sorry
   sorry_access_denied: "Sorry: access denied"
   sorry_reset_not_found: "Sorry: the system can't find you. That link must have been garbled somewhere along the line. Please paste the 20-character confirmation code into the box below and we'll try again."
   spam_trap: it's a spam trap and shouldn't be visible
+  subject: Subject
   terms_and_conditions: terms and conditions
   thanks_activated: Thank you! Your account has been activated.
   thanks_and_activation_instructions: Thank you for registering. Now please check your email. We have sent a message containing a link that will automatically activate your account and log you in.

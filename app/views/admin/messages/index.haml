@@ -7,11 +7,11 @@
       %tr
         - render_region :thead do |thead|
           - thead.subject_header do
-            %th.message Subject
+            %th.message= t('subject')
           - thead.sent_header do
-            %th.message_sent Delivery status
+            %th.message_sent= t('delivery_status')
           - thead.modify_header do
-            %th.modify Modify
+            %th.modify= t('modify')
     %tbody
       - @messages.each do |message|
         %tr
@@ -39,4 +39,4 @@
       #actions
         = pagination_for @messages
         %ul
-          %li= link_to image('plus') + " " + "new message", new_admin_message_url
+          %li= link_to image('plus') + " " + t('new_message'), new_admin_message_url
