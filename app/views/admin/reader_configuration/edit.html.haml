@@ -2,10 +2,10 @@
 
 - render_region :main do |main|
   - main.edit_header do
-    %h1 Reader configuration
+    %h1= t('reader_configuration')
 
   - main.edit_form do
-    - form_for :config, :url => admin_reader_configuration_url, :html => {"data-onsubmit_status"=>"Saving changes&#8230;", :method => :put} do |f|
+    - form_for :config, :url => admin_reader_configuration_url, :html => {"data-onsubmit_status"=>t('saving_changes'), :method => :put} do |f|
       = render_region :form_top
       - render_region :form do |form|
         - form.edit_registration do
@@ -23,7 +23,7 @@
   
         - form.edit_sender do
           %fieldset
-            %h3 Administrative email
+            %h3= t('administrative_email')
             %p
               = edit_config('email.name')
             %p
@@ -36,6 +36,6 @@
       - render_region :form_bottom do |form_bottom|
         - form_bottom.edit_buttons do
           %p.buttons
-            %input.button{:type=>"submit", :value=>"Save Changes"}/
-            or
-            = link_to "Cancel", admin_reader_configuration_url
+            %input.button{:type=>"submit", :value=>t('save_changes')}/
+            = t('or')
+            = link_to t('cancel'), admin_reader_configuration_url

@@ -1,22 +1,13 @@
-%p
-  You can use tags, snippets and assets in your messages just as you would in a page. 
-  There are also a few simple mailmerge tags that you can use to place information about the recipient (or yourself) in each message as it is sent out. 
-  Most are self-explanatory:
+%p= t('message_explaination')
 %ul.help
   %li
     %code &lt;r:sender:name /&gt;
-    is the name configured in 
-    %em
-      reader.mail_from_name:
-    currently 
+    = t('sender_name_tag_description')
     %strong
       = "'#{Radiant::Config['reader.mail_from_name']}'."
   %li
     %code &lt;r:sender:email /&gt;
-    is the address configured in 
-    %em
-      reader.mail_from_address:
-    currently 
+    = t('sender_email_tag_description')
     %strong
     = "'#{Radiant::Config['reader.mail_from_address']}'."
   %li
@@ -27,15 +18,15 @@
     %code &lt;r:recipient:login /&gt;
   %li
     %code &lt;r:recipient:password /&gt; 
-    only works in welcome messages: after first login we forget the unencrypted password
+    = t('recipient_password_tag_description')
   %li
     %code &lt;r:recipient:url /&gt;
-    is the address of the page about this person
+    = t('recipient_url_tag_description')
   %li
     %code &lt;r:recipient:edit_url /&gt; 
-    is the address of the preferences form
+    = t('recipient_edit_url_tag_description')
   %li
     %code &lt;r:recipient:activation_url /&gt;
-    is the address that will activate a newly-created account
+    = t('recipient_activation_url_tag_description')
   %li
     %code &lt;r:recipient:description /&gt;

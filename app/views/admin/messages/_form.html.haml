@@ -4,7 +4,7 @@
   - render_region :form do |formpart|
     - formpart.edit_subject do
       %p.title
-        = form.label :subject, "Message Subject"
+        = form.label :subject, t('message_subject')
         = form.text_field :subject, :class => 'textbox', :maxlength => 255
         - if @message.new_record?
           = form.hidden_field :function_id
@@ -13,9 +13,9 @@
       %div.body
         %p
           %span.filter
-            = form.label :filter_id, "Filter:"
+            = form.label :filter_id, t('filter')
             = form.select :filter_id, TextFilter.descendants.map { |tf| tf.filter_name }.sort, :id => 'message_filter', :include_blank => true
-          = form.label :body, "Message Body"
+          = form.label :body, t('message_body')
           = form.text_area :body, :class => 'textarea', :style => 'width: 100%'
 
       = render_region :body_bottom, :locals => {:form => form}
@@ -27,5 +27,5 @@
     %p.buttons
       = save_model_button(@message)
       = save_model_and_continue_editing_button(@message)
-      or
-      = link_to "cancel", admin_reader_configuration_url
+      = t('or')
+      = link_to t('cancel'), admin_reader_configuration_url

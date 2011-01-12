@@ -28,8 +28,7 @@
 - render_region :messages do |messages|
   - messages.administration do
     #message_settings.box
-      %h3
-        =t("reader_emails")
+      %h3= t("reader_emails")
   
       - MessageFunction.find_all.each do |func|
         - message = Message.functional(func)
@@ -38,6 +37,6 @@
           - if message
             = link_to message.subject, admin_message_url(message)
           - else
-            = link_to image('plus') + " create message", new_admin_message_url(:function => func), :class => 'create'
+            = link_to image('plus') + " " + t('create_message'), new_admin_message_url(:function => func), :class => 'create'
 
 

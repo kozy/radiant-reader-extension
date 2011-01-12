@@ -8,11 +8,11 @@
         %tr
           - render_region :thead do |thead|
             - thead.title_header do
-              %th.reader Name / Login
+              %th.reader= t('name_login')
             - thead.description_header do
-              %th.reader_description Self-description
+              %th.reader_description= t('self_description')
             - thead.modify_header do
-              %th.modify Modify
+              %th.modify= t('modify')
               
     %tbody
       - @readers.each do |reader|
@@ -27,7 +27,7 @@
                 - unless reader.notes.blank?
                   %p.admin_notes
                     %strong
-                      note:
+                    = t('note')
                     = reader.notes
 
             - tbody.description_cell do
@@ -45,4 +45,4 @@
       #actions
         = pagination_for @readers
         %ul
-          %li= link_to image('plus') + " " + "new reader", new_admin_reader_url
+          %li= link_to image('plus') + " " + t('new_reader'), new_admin_reader_url

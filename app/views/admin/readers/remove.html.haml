@@ -1,9 +1,6 @@
-%h1 Remove Reader
+%h1= t('remove_reader')
 
-%p 
-  Are you sure you want to 
-  %strong.warning permanently remove
-  the following reader?
+%p= t('confirm_deletion', :permanently_remove => "<strong class='warning'>" + t('permanently_remove') +  "</strong>")
 
 %table.index#readers{:cellpadding=>0, :cellspacing=>0, :border=>0}
   %tbody
@@ -13,6 +10,6 @@
 
 - form_for [:admin, @reader], :html => { :method => :delete } do
   %p.buttons
-    %input.button{:type=>"submit", :value=>"Delete Reader"}/
-    or
-    = link_to 'Cancel', admin_readers_path
+    %input.button{:type=>"submit", :value=>t('delete_reader')}/
+    = t('or')
+    = link_to t('cancel'), admin_readers_path

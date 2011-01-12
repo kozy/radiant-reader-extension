@@ -6,8 +6,7 @@
     =t('password_reset_reassurance')
   
 - if @error
-  %p.haserror
-    = t(@error)
+  %p.haserror= t(@error)
 
 .password_form
   - email = current_reader.email if current_reader
@@ -16,7 +15,7 @@
       %label{:for => "email"}
         = t('your_email')
       %br
-      = text_field_tag 'email', email, :class => 'titular'
+      = text_field_tag t('email'), email, :class => 'titular'
 
     %p
       = submit_tag t('send_reset_button')

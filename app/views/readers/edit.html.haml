@@ -16,7 +16,7 @@
   - form_for :reader, :url => reader_url(@reader), :html => { :method => "put", :class => 'friendly'} do |f| 
     
     %p
-      = f.label :current_password, "Current password", :class => 'required'
+      = f.label :current_password, t('current_password'), :class => 'required'
       %span.formnote
         = link_to t('forgotten_password'), new_password_reset_url
       = f.password_field :current_password, :class => 'standard', :autocomplete => 'off'
@@ -26,9 +26,9 @@
       
     = render :partial => 'form', :locals => {:f => f}
     %p
-      = submit_tag "Update your account"
-      or 
-      = link_to 'cancel', request.referer
+      = submit_tag t('update_your_account')
+      = t('or') 
+      = link_to t('cancel'), request.referer
 
   %p
     = link_to gravatar_for(@reader, {:size => 60}, {:class => 'gravatar'}), 'http://gravatar.com/site/login'
