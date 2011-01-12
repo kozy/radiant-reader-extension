@@ -1,10 +1,11 @@
---- 
+---
 en:
   access_denied: Access denied
   account_settings: Account settings
   account_updated: Your account has been updated
   activate_account: Activate your account
   activation_complete: Thank you very much for persevering with the registration process. Your account is now active.
+  activation_instructions: Activation instructions
   activation_message_sent: Account activation instructions have been emailed to you.
   activation_required_explanation: You should have received a confirmation message containing a link that will activate your account.
   activation_required_header: Please check your email
@@ -75,6 +76,7 @@ en:
   honorific_notes: ""
   if_cant_find: If you can't find the message, we can
   if_mistake_see_admin: If this is a mistake, please talk to the site administrator about your account.
+  invitation: Invitation
   invitation_description: This will cause an invitation (and activation) message to be sent to the email address that you specify.
   invitation_message: Invitation message
   invitation_sent_automatically: This message is sent automatically when someone is invited to the site.
@@ -108,6 +110,7 @@ en:
   page_permission_denied: You don't have permission to see the page that you have requested.
   password: password
   password_incorrect: Sorry. Wrong password.
+  password_instructions: Password instructions
   password_mismatch: Passwords don't match! Please try again.
   password_not_yet_changed: Your password hasn't changed yet, so if you've just remembered it you can still log in as usual.
   password_notes: at least four characters, please
@@ -175,6 +178,7 @@ en:
   to_take_part_please: To take part, please
   update_your_account: Update your account
   username: username
+  welcome: Welcome
   welcome_back: Welcome back
   welcome_message: Welcome message
   welcome_sent_automatically: This message is sent automatically when someone completes the registration and email-confirmation process.

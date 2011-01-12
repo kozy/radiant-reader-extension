@@ -32,10 +32,10 @@ class MessageFunction
   end
   
   @@functions = [
-    MessageFunction.new('welcome', 'Welcome'),
-    MessageFunction.new('invitation', 'Invitation' ),
-    MessageFunction.new('password_reset', 'Password instructions'),
-    MessageFunction.new('activation', 'Activation instructions')
+    MessageFunction.new('welcome', I18n.t('welcome')),
+    MessageFunction.new('invitation', I18n.t('invitation') ),
+    MessageFunction.new('password_reset', I18n.t('password_instructions')),
+    MessageFunction.new('activation', I18n.t('activation_instructions'))
   ]
 
 end
