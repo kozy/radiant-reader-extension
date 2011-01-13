@@ -91,7 +91,7 @@ protected
   end
 
   def restrict_to_self
-    flash[:error] = t("cannot_edit_others") if params[:id] && params[:id] != current_reader.id
+    flash[:error] = t("cannot_edit_others") if params[:id] && params[:id].to_i != current_reader.id
     @reader = current_reader
   end
   

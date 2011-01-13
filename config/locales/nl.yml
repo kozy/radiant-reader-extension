@@ -1,5 +1,6 @@
 ---
 nl:
+  if_not_you: Als u dit niet bent dan graag
   access_denied: Toegang geweigerd
   account_settings: Account instellingen
   account_updated: "Uw account is geüpdate"

@@ -3,9 +3,7 @@
 
 - if current_reader
   %p
-    = t('reader_logged_in_as')
-    %strong
-      = current_reader.name
+    = t('reader_logged_in_as', :name => current_reader.name)
     - unless current_reader.activated?
       = t('but_not_active')
     

@@ -16,8 +16,7 @@
   = gravatar_for(@reader, {:size => 128}, {:class => 'big_gravatar'})
 
   - if @reader.description.blank?
-    %p 
-     = t('no_description')
+    %p= t('no_description')
   - else
     = clean_textilize @reader.description
 
