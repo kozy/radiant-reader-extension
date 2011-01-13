@@ -178,7 +178,7 @@ nl:
   return_to_page: "keer terug naar de pagina die u bekeek voordat u het regsitratie proces starte"
   return_to_page: return to the page you were looking at before you started registering
   save_changes: Wijzigingen opslaan
-  saving_changes: Wijzigingen aan het opslaan&#8230;
+  saving_changes: Wijzigingen aan het opslaan
   self_description: Zelf-omschrijving
   send_it_again: stuur het opnieuw
   send_message: Verstuur bericht
