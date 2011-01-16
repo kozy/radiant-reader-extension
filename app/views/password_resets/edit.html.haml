@@ -21,12 +21,10 @@
       %p
         = f.label :password, t('new_password'), :class => 'required'
         %span.formnote= t('password_notes')
-        %br
         = f.password_field :password, :class => 'titular'
 
       %p
         = f.label :password_confirmation, t('repeat_password'), :class => 'required'
-        %br
         = f.password_field :password_confirmation, :class => 'titular'
       %p
         = f.submit "Update my password and log me in"
@@ -47,7 +45,6 @@
       %p
         %label{:for => "confirmation_code"}
           = t('confirmation_code')
-        %br
         = text_field_tag 'confirmation_code', '', :class => 'titular'
 
       %p

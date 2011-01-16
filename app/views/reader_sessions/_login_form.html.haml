@@ -22,19 +22,16 @@
     - if @error
       %p.haserror
         = t('login_unknown')
-        %br
         = link_to t('forgotten_password'), new_password_reset_url
 
     %p{ :class => @reader_session.errors.on(:login) ? 'haserror' : '' }
       %label{:for => "reader_session_login"}
         = t('username').titlecase
-      %br
       = f.text_field :login, :class => 'login' 
         
     %p{ :class => @reader_session.errors.on(:password) ? 'haserror' : '' }
       %label{:for => "reader_session_password"}
         = t('password').titlecase
-      %br
       = f.password_field :password, :class => 'login'
 
     %p.buttons

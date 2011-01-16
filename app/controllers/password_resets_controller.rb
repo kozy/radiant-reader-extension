@@ -16,22 +16,22 @@ class PasswordResetsController < ApplicationController
     if @reader
       if @reader.activated?
         @reader.send_password_reset_message
-        flash[:notice] = "reset_message_sent"
+        flash[:notice] = t("reset_message_sent")
         render
       else
         @reader.send_activation_message
-        flash[:notice] = "activation_message_sent"
+        flash[:notice] = t("activation_message_sent")
         redirect_to new_reader_activation_url
       end
     else  
-      @error = flash[:error] = "email_unknown"
+      @error = flash[:error] = t("email_unknown")
       render :action => :new  
     end  
   end
 
   def edit  
     unless @reader
-      flash[:error] = 'reset_not_found'
+      flash[:error] = t('reset_not_found')
     end
     render
   end  
@@ -42,14 +42,14 @@ class PasswordResetsController < ApplicationController
       @reader.password_confirmation = params[:reader][:password_confirmation]
       if @reader.save 
         self.current_reader = @reader
-        flash[:notice] = 'password_updated_notice'
+        flash[:notice] = t('password_updated_notice')
         redirect_to url_for(@reader)
       else
-        flash[:error] = 'password_mismatch'
+        flash[:error] = t('password_mismatch')
         render :action => :edit 
       end  
     else
-      flash[:error] = 'reset_not_found'
+      flash[:error] = t('reset_not_found')
       render :action => :edit     # without @reader, this will take us back to the enter-your-code form
     end
   end  
