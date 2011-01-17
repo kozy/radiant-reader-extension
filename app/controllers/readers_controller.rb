@@ -103,7 +103,7 @@ protected
     @reader.valid?
     
     flash[:error] = t('password_incorrect')
-    @reader.errors.add(:current_password, "not_correct")
+    @reader.errors.add(:current_password, t("not_correct"))
     render :action => 'edit' and return false
   end
   

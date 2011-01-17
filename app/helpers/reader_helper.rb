@@ -4,6 +4,7 @@ module ReaderHelper
   def gravatar_for(reader, gravatar_options={}, img_options ={})
     size = gravatar_options[:size]
     img_options[:size] = "#{size}x#{size}" if size
+    gravatar_options.merge! :default => "wavatar"
     image_tag gravatar_url(reader.email, gravatar_options), img_options
   end
 

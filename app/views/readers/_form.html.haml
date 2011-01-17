@@ -51,7 +51,7 @@
   - label = @reader.new_record? ? t('confirm_password') : t('confirm_new_password')
   - cssclass = @reader.new_record? ? 'required' : 'optional'
   = f.label :password_confirmation, label, :class => cssclass
-  %span.formnote= t('existing_password_notes')
+  %span.formnote= @reader.new_record? ? t('password_notes') : t('existing_password_notes')
   = f.password_field :password_confirmation, :class => 'standard', :autocomplete => 'off'
 
 - @form_partials.each do |partial|

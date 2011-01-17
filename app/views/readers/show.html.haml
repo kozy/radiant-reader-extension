@@ -13,7 +13,7 @@
       %li
         = link_to t('change_gravatar'), "http://gravatar.com/site/login/"
 
-  = gravatar_for(@reader, {:size => 128}, {:class => 'big_gravatar'})
+  = gravatar_for(@reader, {:size => 128}, {:class => 'big gravatar'})
 
   - if @reader.description.blank?
     %p= t('no_description')

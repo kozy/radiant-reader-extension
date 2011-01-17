@@ -41,7 +41,7 @@ nl:
       require_confirmation?: Bevestig email adressen
       use_honorifics?: Gebruik 'honorifics'
   confirm_deletion:   Weet u zeker dat u de volgende bezoeker %{permanently_remove} wilt verwijderen?
-  confirm_new_password: "Bevestig nieuw wachtwoord"
+  confirm_new_password: Bevestig nieuw wachtwoord
   confirm_password: Bevestig wachtwoord
   confirmation_code: Bevestigings code
   confirming_email: Als u klikt op 'registreer' sturen wij een bevestigings email naar bovenstaand adres. Klik op de link in dat bericht, en u bent binnen.
@@ -97,7 +97,7 @@ nl:
   log_in: inloggen
   log_out: uitloggen
   login_name: Login naam
-  login_notes: Leeg laten om uw email adres te gebruiken
+  login_notes: leeg laten om uw email adres te gebruiken
   login_unknown: 'Het spijt me: we herkennen deze combinatie gebruikersnaam en wachtwoord niet.'
   logout_message: U bent uitgelogd. Tot ziens!
   message_body: Bericht inhoud
@@ -112,7 +112,7 @@ nl:
   modify: aanpassen
   must_be_empty: moet leeg zijn
   name_login: Naam / Gebruikersnaam
-  name_notes: zoals u wilt dat het op de site komt
+  # name_notes: zoals u wilt dat het op de site komt
   never_sent: nooit verstuurd
   new_account: Registreer
   new_message: nieuw bericht
@@ -131,7 +131,7 @@ nl:
   password_mismatch: Wachtwoorden komen niet overeen! Probeer opnieuw.
   password_not_yet_changed: U wachtwoord is nog niet veranderd, dus als u het zich weer herinnerd kunt u inloggen zoals gerbuikelijk.
   password_notes: minimaal vier karakters alstublieft
-  password_reset_instructions: Vul hieronder uw email adres in. Als we het herkennen sturen we u een bericht met een confirmatie link (of, als uw account nog niet actief is, sturen we de confirmatie email opnieuw).
+  password_reset_instructions: Vul hieronder uw email adres in. Als we het herkennen sturen we u een bericht met een bevestigingslink (of, als uw account nog niet actief is, sturen we de bevestigings email opnieuw).
   password_reset_reassurance: Uw wachtwoord zal niet veranderen tot u dat formulier invuld zodat alleen u dit proces kunt voltooien.
   password_reset_sent_automatically: Dit bericht wordt autmatisch verstuurd als iemand zijn wachtwoord hersteld.
   password_updated_notice: Hartelijk dank. Uw wachtwoord is aangepast en u bent nu inglogd.
