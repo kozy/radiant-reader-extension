@@ -1,5 +1,9 @@
 ---
 nl:
+  password_reset_message: Wachtwoord herstel bericht
+  update_password: Pas mijn wachtwoord aan en log in
+  repeat_password: Bevestig uw wachtwoord
+  email_already_registered: is al geregistreerd hier
   if_not_you: Als u dit niet bent
   access_denied: Toegang geweigerd
   account_settings: Account instellingen
@@ -63,18 +67,18 @@ nl:
   edit_reader: Bezoeker aanpassen
   email: email
   email_notes: we sturen een activatie bericht naar dit adres
-  email_unknown: het spijt me. Dat email adres is niet bekend hier
+  email_unknown: "Het spijt me, dit email adres is niet bekend hier, controleer het en probeer opnieuw."
   enter_code: Gelieve de bevestigings code invullen
   enter_email_for_reminder: vul uw email adres in en we sturen het bericht opnieuw
   enter_own_password: "Allereerst, om te controleren dat u het bent, graag uw wachtwoord invulllen:"
   everyone: Iedereen
   everyone_inactive: iedereen die zijn account niet heeft geactiveerd
-  everyone_unsent: "iedereen die dit bericht neit heeft gekregen"
+  everyone_unsent: iedereen die dit bericht niet heeft gekregen
   existing_password_notes: leeg laten om uw huidige wachtwoord te houden. Als uw het veranderd, graag minmaal vier karakters.
   filter: "Filter:"
   for: voor
   forgotten_password: wachtwoord vergeten?
-  form_problem: er was een probleem met het formulier
+  form_problem: er is een probleem met wat u heeft ingevuld
   getting_gravatar: Als u een afbeelding naast uw berichten wilt geef uzelf dan een
   hello: Hallo
   home: home
@@ -117,11 +121,11 @@ nl:
   new_account: Registreer
   new_message: nieuw bericht
   new_password: Nieuw wachtwoord
-  new_password_instructions: Vul in en bevestig uw nieuwe wachtwoord. Het moet minimaal vier karakters lang zijn, niets voor de hand liggends en bij voorkeur een combinatie van nummers en letters.
+  new_password_instructions: Vul in en bevestig uw nieuwe wachtwoord. Het moet minimaal vier karakters lang zijn, niets voor de hand liggends en bij voorkeur een combinatie van cijfers en letters.
   'no': nee
   new_reader: Nieuwe bezoekers
   no_description: Geen beschrijving beschikbaar
-  not_correct: probleem!
+  not_correct: controleer dit veld
   note: "Opmerking:"
   notes: Opmerkingen
   page_permission_denied: U heeft niet voldoende de rechten om deze pagina te zien.
@@ -129,7 +133,7 @@ nl:
   password_incorrect: Het spijt me, u heeft geen juist wachtwoord ingevoerd.
   password_instructions: Wachtwoord instructies
   password_mismatch: Wachtwoorden komen niet overeen! Probeer opnieuw.
-  password_not_yet_changed: U wachtwoord is nog niet veranderd, dus als u het zich weer herinnerd kunt u inloggen zoals gerbuikelijk.
+  password_not_yet_changed: U wachtwoord is nog niet veranderd, dus als u het zich weer herinnerd kunt u inloggen zoals gebruikelijk.
   password_notes: minimaal vier karakters alstublieft
   password_reset_instructions: Vul hieronder uw email adres in. Als we het herkennen sturen we u een bericht met een bevestigingslink (of, als uw account nog niet actief is, sturen we de bevestigings email opnieuw).
   password_reset_reassurance: Uw wachtwoord zal niet veranderen tot u dat formulier invuld zodat alleen u dit proces kunt voltooien.
@@ -154,6 +158,7 @@ nl:
   reader_configuration_page: Bezoeker instellingen
   reader_emails: Administratieve berichten
   reader_logged_in_as: U bent ingelogd als %{name},
+  reader_saved: Bezoekersaccount aangemaakt
   reader_required: "Het spijt me, voor dit gedeelte van de site heeft u een account nodig."
   readers: Bezoekers
   really_delete_message: "Weet u zeker dat u het %{title} bericht wilt verwijderen? Dit kan niet ongedaan gemaakt worden."
@@ -167,12 +172,12 @@ nl:
   registration_disallowed: Het spijt me. Wij staan het niet toe om te registreren
   remember_me: herinner mij
   remove_reader: Bezoeker verwijderen
-  resend_activation: Stuur mij het activatie bericht opnieuw
+  resend_activation: Klik hier als u wilt dat wij het activatie bericht opnieuw sturen
   reset_message_instructions: Bedankt. Er is een bericht verstuurd met instructie om uw wachtwoord te herstelllen. Het is nog niet aangepast totdat u de instructies in de email volgt. Als u plotseling uw oude wachtwoord herinnerd kunt u gewoon doorgaan zoals u gewend bent en dat bericht negeren
   reset_message_sent: Wachtwoord herstel instructies zijn u toegemailed.
   reset_not_found: Wachtwoord herstel code niet gevonden
   reset_password: Herstel uw wachtwoord
-  restart_password_change: Stuur nogmaals wachtwoord herstel instructies
+  restart_password_change: Klik hier om nogmaals wachtwoord herstel instructies te sturen
   return_to_page: "keer terug naar de pagina die u bekeek voordat u het regsitratie proces starte"
   return_to_page: return to the page you were looking at before you started registering
   save_changes: Wijzigingen opslaan
@@ -185,7 +190,7 @@ nl:
   sender_email_tag_description: het adres in de reader.mail_from_address configuratie momenteel
   sender_name_tag_description: is de naam geconfigureerd in mail_from_name momenteel
   some_deliveries_failed: Kon sommige berichten niet versturen
-  sorry: Helaas,
+  sorry: "Let op: "
   sorry_access_denied: Het spijt me, toegang geweigerd
   sorry_reset_not_found: "Het spijt me, het systeem kan u niet vinden. Er zal iets misgegeaan zijn met de link. Plak de 20-karaktes lange code in onderstaand veld en we proberen het opnieuw."
   spam_trap: is een spam val en zou niet zichtbaar moeten zijn
@@ -200,7 +205,7 @@ nl:
   update_your_account: Uw account aanpassen
   username: gebruikersnaam
   welcome: Welkom
-  
+  you: ik
   
   
   welcome_back: Welkom terug

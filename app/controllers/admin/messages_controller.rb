@@ -44,7 +44,7 @@ class Admin::MessagesController < Admin::ResourceController
 protected
 
   def continue_url(options)
-    if action_name == "destroy"
+    if action_name == "delete"
       redirect_to :back
     else
       options[:redirect_to] || (params[:continue] ? {:action => 'edit', :id => model.id} : admin_message_url(model))

@@ -28,12 +28,12 @@ class Reader < ActiveRecord::Base
   before_save :set_login
   before_update :update_user
 
-  validates_presence_of :name, :email, :message => 'is required'
-  validates_uniqueness_of :login, :message => "is already in use here"
+  validates_presence_of :name, :email, :message => I18n.t('is_required')
+  validates_uniqueness_of :login, :message => I18n.t("already_in_use")
   validate :email_must_not_be_in_use
 
   include RFC822
-  validates_format_of :email, :with => RFC822_valid, :message => 'appears not to be an email address'
+  validates_format_of :email, :with => RFC822_valid, :message => I18n.t('invalid_email')
   validates_length_of :name, :maximum => 100, :allow_nil => true
 
   named_scope :any
@@ -120,9 +120,9 @@ class Reader < ActiveRecord::Base
       reader = Reader.find_by_email(self.email)   # the finds will be site-scoped if appropriate
       user = User.find_by_email(self.email)
       if user && user != self.user
-        errors.add(:email, "belongs to an author here")
+        errors.add(:email, I18n.t("email_already_registered"))
       elsif reader && reader != self
-        errors.add(:email, "is already registered here")
+        errors.add(:email, I18n.t("email_already_registered"))
       else
         return true
       end

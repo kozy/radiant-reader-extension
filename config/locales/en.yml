@@ -1,5 +1,8 @@
 --- 
-en: 
+en:
+  update_password: Update my password and log me in
+  repeat_password: Confirm your password
+  email_already_registered: is already registered here
   if_not_you: If this is not you please
   access_denied: Access denied
   account_settings: Account settings
@@ -150,6 +153,7 @@ en:
   reader_configuration_page: reader settings
   reader_emails: Administrative messages
   reader_logged_in_as: You are logged in as %{name}.
+  reader_saved: Reader saved
   reader_required: "Sorry: this part of the site requires an account."
   readers: Readers
   really_delete_message: Are you sure you want to delete the message '%{title}'? This cannot be undone.

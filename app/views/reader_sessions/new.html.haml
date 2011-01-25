@@ -28,6 +28,7 @@
     %p
       = flash[:explanation]
       
+  = render :partial => 'readers/flasher'
   = render :partial => 'login_form', :locals => {:no_title => true}
 
 - content_for :breadcrumbs do
