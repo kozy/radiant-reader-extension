@@ -12,7 +12,7 @@ nl:
   activation_complete: Hartelijk dank voor het voltooien van de registratie. Uw account is nu actief.
   activation_failed: Het is niet gelukt het activatie bericht te versturen!
   activation_instructions: Activatie instructies
-  activation_message_sent: Activatie instructies voor uw account zijn u inmiddels toegemailed.
+  activation_message_sent: Activatie instructies voor uw account zijn u inmiddels toegemaild.
   activation_required_explanation: U zou een bevestings email gehad moeten hebben met een link welke uw account activeerd.
   activation_required_header: Graag uw email controleren
   activation_sent: Activatie bericht verstuurd
@@ -48,7 +48,7 @@ nl:
   confirm_new_password: Bevestig nieuw wachtwoord
   confirm_password: Bevestig wachtwoord
   confirmation_code: Bevestigings code
-  confirming_email: Als u klikt op 'registreer' sturen wij een bevestigings email naar bovenstaand adres. Klik op de link in dat bericht, en u bent binnen.
+  confirming_email: Als u klikt op 'registreer' sturen ik een bevestigings email naar bovenstaand adres. Klik op de link in dat bericht, en u bent binnen.
   continue: Doorgaan
   count_people: 
     zero: "(niemand)"
@@ -172,9 +172,9 @@ nl:
   registration_disallowed: Het spijt me. Wij staan het niet toe om te registreren
   remember_me: herinner mij
   remove_reader: Bezoeker verwijderen
-  resend_activation: Klik hier als u wilt dat wij het activatie bericht opnieuw sturen
+  resend_activation: Klik hier als u wilt dat ik het activatie bericht opnieuw stuuur
   reset_message_instructions: Bedankt. Er is een bericht verstuurd met instructie om uw wachtwoord te herstelllen. Het is nog niet aangepast totdat u de instructies in de email volgt. Als u plotseling uw oude wachtwoord herinnerd kunt u gewoon doorgaan zoals u gewend bent en dat bericht negeren
-  reset_message_sent: Wachtwoord herstel instructies zijn u toegemailed.
+  reset_message_sent: Wachtwoord herstel instructies zijn u toegemaild.
   reset_not_found: Wachtwoord herstel code niet gevonden
   reset_password: Herstel uw wachtwoord
   restart_password_change: Klik hier om nogmaals wachtwoord herstel instructies te sturen

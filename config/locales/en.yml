@@ -19,6 +19,7 @@ en:
   administrative_email: Administrative email
   all_deliveries_failed: Could not send any message
   already_active: Your account is already active.
+  already_in_use: Is already in use
   already_logged_in: You're already logged in!
   already_registered: If you've already registered, you should only need to
   and_try_again: and try again.
